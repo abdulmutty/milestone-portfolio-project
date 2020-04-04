@@ -1,0 +1,107 @@
+/****** BASE STYLES ******/
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu,
+.reviews,
+.contact {
+  width: 400px;
+}
+
+/******** GRID *********/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 360px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 0;
+  float: left;
+  height: 300px;
+}
+
+/******** HEADER SECTION ***********/
+header {
+  height: 400px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+header h1 {
+  padding-top: 20px;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+}
+
+header span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 20px ;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+figure {
+  margin: 0 auto;
+}
+figure img {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+/**** ABOUT SECTION ****/
+#about {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#about h2  {
+  font-size: 18px;
+  font-family: 'Montserrat';
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*********** BOTTOM SECTION*******/
+#bottom-section p {
+  line-height: 30px;
+}
+.contact {
+  padding-left: 50px;
+}
+
+/****** FOOTER ********/
+footer {
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer span {
+  font-family: 'Dancing Script';
+  text-transform: lowercase;
+  color: #77a466;
+}

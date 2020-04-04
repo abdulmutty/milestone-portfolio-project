@@ -11,8 +11,8 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <meta name="theme-color" content="#fafafa">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -30,31 +30,26 @@
   <header id="header">
   <div class="content-wrapper">
     <div class="title">
-      <a href="index.html">
-        <h2>< Abdulmuttalib Abdullah | web developer/></h2>
+      <a href="../index.html">
+        <h2>< Abdulmuttalib Abdullah | web developer /></h2>
       </a>
     </div>
     <nav>
       <ul>
-        <a href="index.html"><li>home</li></a>
-        <a href="project-page/index.html"><li>portfolio</li></a>
-        <a href="contact-page/index.html"><li>contact</li></a>
+        <a href="../index.html"><li>home</li></a>
+        <a href="index.html"><li>portfolio</li></a>
+        <a href="../contact-page/index.html"><li>contact</li></a>
       </ul>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero-area">
-    <div class="content-wrapper">
-      <h1>Let's <span>code</span> something cool</h1>
-    </div>
-  </section>
   <!--- PORTFOLIO SECTION -->
   <section id="portfolio">
     <div class="content-wrapper">
       <div class="section-title">
-        <h2>services</h2>
+        <h2>Past html5 and css projects</h2>
       </div>
       <div class="projects">
 
@@ -62,11 +57,13 @@
           <div class="unplugged">
             <figure>
               <a href="unplugged-website/index.html" target="_blank">
-                <img src="img/unplugged.jpg" alt="Unplugged">
+                <img src="../img/unplugged.jpg" alt="Unplugged">
               </a>
             </figure>
             <article>
-              <h3>Unplugged</h3>
+              <a href="unplugged-website/index.html" target="_blank">
+                <h3>Unplugged</h3>
+              </a>
               <h4>HTML & CSS from Photoshop Design Comp</h4>
               <p>Here, a client in the agricultural industry requested me to design a website that will signify their
               companies values. After a while of back and forth with the client, we came up with this design. The client
@@ -78,12 +75,14 @@
         <!-- ROGUE PICKINGS---->
           <div class="rogue-pickings">
             <figure>
-              <a href="#">
-                <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings">
+              <a href="rogue_pickings-website/index.html" target="_blank">
+                <img src="../img/rogue-pickings-thumbnail.png" alt="Rogue Pickings">
               </a>
             </figure>
             <article>
-              <h3>Rogue Pickings Website</h3>
+              <a href="rogue_pickings-website/index.html" target="_blank">
+                <h3>Rogue Pickings Website</h3>
+              </a>
               <h4>HTML & CSS from Photoshop Design Comp</h4>
               <p>Here, a client in the agricultural industry requested me to design a website that will signify their
               companies values. After a while of back and forth with the client, we came up with this design. The client
@@ -91,32 +90,47 @@
               and we both parted ways happily.</p>
             </article>
           </div>
-          <div class="see-more-link">
-            <a href="project-page/index.html">
-              <h3>See more projects ></h3>
-            </a>
+
+          <!--- JUBILEE AUSTEN---->
+          <div class="jubilee-austen">
+            <figure>
+              <a href="jubilee_austen-website/index.html"target="_blank">
+                <img src="../img/jubilee-thumbnail.png" alt="Jubilee Austen">
+              </a>
+            </figure>
+            <article>
+              <a href="jubilee_austen-website/index.html"target="_blank">
+                <h3>Jubilee Austen</h3>
+              </a>
+              <h4>HTML & CSS from Photoshop Design Comp</h4>
+              <p>Here, a client in the agricultural industry requested me to design a website that will signify their
+              companies values. After a while of back and forth with the client, we came up with this design. The client
+              was amazed at to the level of detail and thinking I put into the project. The client compensated me fairly
+              and we both parted ways happily.</p>
+            </article>
           </div>
+
+          <!-- HOLSTEE MANIFESTO ---->
+            <div class="holstee-manifesto">
+              <figure>
+                <a href="">
+                  <img src="../img/holstee-thumbnail.png" alt="Holstee Manifesto">
+                </a>
+              </figure>
+              <article>
+                <a href="">
+                  <h3>Holstee Manifesto</h3>
+                </a>
+                <h4>HTML & CSS from Photoshop Design Comp</h4>
+                <p>Here, a client in the agricultural industry requested me to design a website that will signify their
+                companies values. After a while of back and forth with the client, we came up with this design. The client
+                was amazed at to the level of detail and thinking I put into the project. The client compensated me fairly
+                and we both parted ways happily.</p>
+              </article>
+            </div>
         </div>
       </div>
   </section>
-
-  <!--- ABOUT SECTION --->
-  <section id="about">
-    <div class="content-wrapper">
-      <h2>about me</h2>
-      <figure>
-        <a href=""><img src="img/profile-photo.jpg" alt="Profile photo"> </a>
-      </figure>
-      <article>
-        <h3>I am passionate about the web.</h3>
-        <p>I am a husband to the most beautiful woman in the world who happens to be a pharmacist. My coding journey started at Skillcrush after getting recommendations from my beautiful sister. Without her constant
-        encouragement I probably wouldn't have made it this far in professional web development. One ay I will make
-        the internet a safe place for all, where everyone woul voice their opinions without being bullied.<br>
-        Can't wait to work with you!</p>
-      </article>
-    </div>
-  </section>
-</main>
   <!-- CONTACT SECTION ---->
   <footer>
     <div class="content-wrapper" id="contact">
